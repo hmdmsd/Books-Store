@@ -4,21 +4,22 @@
 <head>
     <meta charset="utf-8" />
     <title>Hamdi Book</title>
-    <link rel="stylesheet" href="/css/normalize.css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
     <div class="banner">
         <header id="mainHeader">
-            <img width="110px" height="90px" src="images/logowebsite.png">
-            <h1>HamdiBook</h1>
+            <div class="logoandtext">
+                <img class="logo" src="images/logowebsite.png">
+                <h1 id="logotitle">Hamdi Book</h1>
+            </div>
             <nav id="mainNav">
-                <h1 class="accessibility">Menu principal</h1>
-                <p class="accessibility"><a href="#pageContent"
-                        title="Accéder directement au contenu principal de cette page">Passer le menu</a></p>
                 <ul>
                     <!--Mettez le nom de votre site dans les points ci dessous-->
+                    <li><a href="#pageContent" title="Accéder directement au contenu principal de cette page">Passer le
+                            menu</a></li>
                     <li><a href="index.html" title="Vers la page d'accueil du site HamdiBook">Home</a></li>
                     <li><a href="galleries.html" title="Vers les galeries livres de ce site">Galery</a></li>
                     <li><a href="contact.html" title="Vers la page de contact de ce site">Contact</a></li>
@@ -33,11 +34,12 @@
             </button>
         </header>
         <!--Ici se termine le #mainHeader-->
-        <main id="pageContent" class="oneCol home">
-            <div id="pictInfo">
-
-            </div>
-        </main>
+        <div class="content">
+            <h1> Learn From Hamdi Book</h1>
+            <p> Welcome to Hamdi Book library the place where <br>
+                you can find every book you want </p>
+            <div> <button type="button">CONTACT ME</button></div>
+        </div>
         <!--Ici se termine le #pageContent-->
         <footer id="mainFooter">
             <p>&copy; Ajouter votre copyright....................</p>
