@@ -24,37 +24,34 @@
                     <li><a href="galleries.html" title="Vers les galeries livres de ce site">Galery</a></li>
                     <li><a href="contact.html" title="Vers la page de contact de ce site">Contact</a></li>
                     <li><a href="about.html" title="En savoir plus sur ce site et sur son propriétaire">About</a></li>
-                    <li><a href="Onepage.html" title="One page">One Page</a></li>
+                    <li><a href="singleBlog.html" title="One page">One Page</a></li>
                     <!--ici vous pouvez ajouter d'autre activité-->
 
                 </ul>
             </nav>
-            <button id="menuToggle">
-                <img src="images/Book.png" alt="Ouvrir / Fermer le menu" width="10" height="10" />
-            </button>
         </header>
         <!--Ici se termine le #mainHeader-->
         <section id="pageContent" class="oneCol contact">
             <main>
-                <h1>Contactez-nous</h1>
+                <h1 id="indexh1">Contactez-Nous</h1>
                 <p>Merci de compléter le formulaire suivant pour nous contacter.</p>
                 <form id="frmContact" action="merci.html">
                     <div>
-                        <div>
+                        <div class="inputfield">
                             <label for="fName">Prénom</label>
                             <input type="text" name="fName" id="fName" required autofocus />
                         </div>
-                        <div>
+                        <div class="inputfield">
                             <label for="lName">Nom</label>
                             <input type="text" name="lName" id="lName" required />
                         </div>
-                        <div>
+                        <div class="inputfield">
                             <label for="email">E-mail</label>
                             <input type="email" name="email" id="email" required />
                         </div>
                     </div>
                     <div>
-                        <div>
+                        <div class="inputfield">
                             <label for="message">Votre message</label>
                             <textarea name="message" id="message" required></textarea>
                         </div>
