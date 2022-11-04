@@ -179,3 +179,17 @@ p{
     background-color: #474e5d;
     color: white;
   }
+
+/*---------------------------------------*/
+.mainFooter{
+    background:rgb(13, 118, 144);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    }
+.mainFooter p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: #fff;
+    }
